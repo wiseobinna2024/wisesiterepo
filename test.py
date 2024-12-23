@@ -1,0 +1,7 @@
+first_name= input('what may be your first name:  ')
+sure_name= input('what may be your sure name:   ') 
+birth_year= input( 'what year you was born:    ') 
+current_year= input( ' Please enter the current year:   ')
+age= int( current_year)- int(birth_year)
+full_name= (f' your name is  {first_name} {sure_name} and you are {age} years of age')
+print(full_name)
