@@ -10,4 +10,18 @@ output= ""
 for ch in phone: 
     output+=digits.get(ch, '!') + " "
 print(output)
+
+print(' This is a new program: ')
+
+mes= input("> ")
+words= mes.split()
+emojis= {
+    ":)": "😂", 
+    ":(": " 😒"
+    }
+output= " "
+for word in words: 
+    output+=emojis.get(word, word) + " "
+print(output)
+
     
