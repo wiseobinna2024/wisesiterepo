@@ -14,3 +14,13 @@ for num in number:
 print('New program: ')
 item= ['John', 'Fatu', 'Alieu']
 print(item[0])
+
+print('This is a new program, to find the largest number in a list: ')
+
+numbers= [4,2,5,7,20]
+numbers.append(90)
+max= number[0]
+for number in numbers: 
+    if number>max: 
+        max=number 
+print(max)
